@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Back", "Back", "{11BF4459-C332-B9BD-164A-F44681F2EC0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3CAF00EF-EEE8-D88D-9D7E-C9F39A564E3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorgEventos.API", "Back\src\BorgEventos.API\BorgEventos.API.csproj", "{C8044525-65F7-477F-C3C5-63D33BC8569B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8044525-65F7-477F-C3C5-63D33BC8569B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8044525-65F7-477F-C3C5-63D33BC8569B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8044525-65F7-477F-C3C5-63D33BC8569B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8044525-65F7-477F-C3C5-63D33BC8569B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CAF00EF-EEE8-D88D-9D7E-C9F39A564E3B} = {11BF4459-C332-B9BD-164A-F44681F2EC0B}
+		{C8044525-65F7-477F-C3C5-63D33BC8569B} = {3CAF00EF-EEE8-D88D-9D7E-C9F39A564E3B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0497CA62-3384-4573-A995-F1D949BA5047}
+	EndGlobalSection
+EndGlobal
