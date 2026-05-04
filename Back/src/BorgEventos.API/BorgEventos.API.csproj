@@ -15,4 +15,8 @@
     <PackageReference Include="System.IO.Pipelines" Version="5.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BorgEventos.Application\BorgEventos.Application.csproj" />
+  </ItemGroup>
+
 </Project>

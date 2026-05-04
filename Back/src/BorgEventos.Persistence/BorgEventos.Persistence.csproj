@@ -4,4 +4,11 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+
+
+   <ItemGroup>
+    <ProjectReference Include="..\BorgEventos.Domain\BorgEventos.Domain.csproj" />
+    <ProjectReference Include="..\BorgEventos.Persistence\BorgEventos.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
