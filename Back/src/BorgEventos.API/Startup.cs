@@ -30,7 +30,7 @@ namespace BorgEventos.API
         {
 
             services.AddDbContext<DataContext>(
-                context => context.UseSqlite(Configuration.GetConnectionString("Default")
+                context => context.UseSqlite(Configuration.GetConnectionString("Default")    // 
             ));
 
             services.AddControllers();
